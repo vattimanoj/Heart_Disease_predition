@@ -1,0 +1,32 @@
+2026-09-25 19:26:24,684 - INFO - before constant technique :Index(['age_yeo_trim', 'sex_yeo_trim', 'cp_yeo_trim', 'trestbps_yeo_trim',
+       'chol_yeo_trim', 'fbs_yeo_trim', 'restecg_yeo_trim', 'thalach_yeo_trim',
+       'exang_yeo_trim', 'oldpeak_yeo_trim', 'slope_yeo_trim', 'ca_yeo_trim',
+       'thal_yeo_trim'],
+      dtype='str'),(242, 13),Index(['age_yeo_trim', 'sex_yeo_trim', 'cp_yeo_trim', 'trestbps_yeo_trim',
+       'chol_yeo_trim', 'fbs_yeo_trim', 'restecg_yeo_trim', 'thalach_yeo_trim',
+       'exang_yeo_trim', 'oldpeak_yeo_trim', 'slope_yeo_trim', 'ca_yeo_trim',
+       'thal_yeo_trim'],
+      dtype='str'),(61, 13)
+2026-09-25 19:26:24,705 - INFO - columns to remove:Index(['fbs_yeo_trim'], dtype='str')
+2026-09-25 19:26:24,706 - INFO - after constant technique:Index(['age_yeo_trim', 'sex_yeo_trim', 'cp_yeo_trim', 'trestbps_yeo_trim',
+       'chol_yeo_trim', 'restecg_yeo_trim', 'thalach_yeo_trim',
+       'exang_yeo_trim', 'oldpeak_yeo_trim', 'slope_yeo_trim', 'ca_yeo_trim',
+       'thal_yeo_trim'],
+      dtype='str'),(242, 12),Index(['age_yeo_trim', 'sex_yeo_trim', 'cp_yeo_trim', 'trestbps_yeo_trim',
+       'chol_yeo_trim', 'restecg_yeo_trim', 'thalach_yeo_trim',
+       'exang_yeo_trim', 'oldpeak_yeo_trim', 'slope_yeo_trim', 'ca_yeo_trim',
+       'thal_yeo_trim'],
+      dtype='str'),(61, 12)
+2026-09-25 19:26:24,708 - INFO - columns to remove:Index(['trestbps_yeo_trim', 'chol_yeo_trim', 'exang_yeo_trim', 'ca_yeo_trim'], dtype='str')
+2026-09-25 19:26:24,709 - INFO - after quasi constant:Index(['age_yeo_trim', 'sex_yeo_trim', 'cp_yeo_trim', 'restecg_yeo_trim',
+       'thalach_yeo_trim', 'oldpeak_yeo_trim', 'slope_yeo_trim',
+       'thal_yeo_trim'],
+      dtype='str'),(242, 8),Index(['age_yeo_trim', 'sex_yeo_trim', 'cp_yeo_trim', 'restecg_yeo_trim',
+       'thalach_yeo_trim', 'oldpeak_yeo_trim', 'slope_yeo_trim',
+       'thal_yeo_trim'],
+      dtype='str'),(61, 8)
+2026-09-25 19:26:24,709 - INFO - after hypothesis testing :Index(['age_yeo_trim', 'sex_yeo_trim', 'cp_yeo_trim', 'thalach_yeo_trim',
+       'oldpeak_yeo_trim', 'slope_yeo_trim', 'thal_yeo_trim'],
+      dtype='str'),(242, 7),Index(['age_yeo_trim', 'sex_yeo_trim', 'cp_yeo_trim', 'thalach_yeo_trim',
+       'oldpeak_yeo_trim', 'slope_yeo_trim', 'thal_yeo_trim'],
+      dtype='str'),(61, 7)

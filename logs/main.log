@@ -1,0 +1,41 @@
+2026-09-25 19:26:24,224 - INFO - Null values in the data:
+age         0
+sex         0
+cp          0
+trestbps    0
+chol        0
+fbs         0
+restecg     0
+thalach     0
+exang       0
+oldpeak     0
+slope       0
+ca          0
+thal        0
+target      0
+dtype: int64
+2026-09-25 19:26:24,227 - INFO - Training dataset size : 
+ (242, 13)  => (242,)
+2026-09-25 19:26:24,227 - INFO - Testing dataset size : 
+ (61, 13) => (61,)
+2026-09-25 19:26:24,710 - INFO - Data balancing : 
+ (242, 7) => (242,)
+2026-09-25 19:26:24,710 - INFO - no of rows in target:1:133
+2026-09-25 19:26:24,710 - INFO - no of columns in target:0:109
+2026-09-25 19:26:24,721 - INFO - After Data balancing : 
+ (266, 7) => (266,)
+2026-09-25 19:26:24,721 - INFO - no of rows in target:1:133
+2026-09-25 19:26:24,721 - INFO - no of columns in target:0:133
+2026-09-25 19:26:25,220 - INFO - accuracy score:0.8032786885245902
+2026-09-25 19:26:25,223 - INFO - confusion matrix:[[25  4]
+ [ 8 24]]
+2026-09-25 19:26:25,237 - INFO - classification report:              precision    recall  f1-score   support
+
+           0       0.76      0.86      0.81        29
+           1       0.86      0.75      0.80        32
+
+    accuracy                           0.80        61
+   macro avg       0.81      0.81      0.80        61
+weighted avg       0.81      0.80      0.80        61
+
+2026-09-25 19:26:25,238 - INFO - 1
