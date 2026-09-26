@@ -2,7 +2,7 @@
 
 A machine learning pipeline that predicts the presence of heart disease from a patient's clinical measurements, served through a simple Flask web app.
 
-**🔗 Live demo:** [https://your-app-name.onrender.com](https://your-app-name.onrender.com) *(replace with your actual Render URL after deployment)*
+**🔗 Live demo:** https://heart-disease-predition-aphi.onrender.com
 
 Built with the help of **Vihara Tech** — *Learn · Intern · Get Placed*
 
